@@ -1,0 +1,239 @@
+<mxfile host="Electron">
+  <diagram name="Elektronik-Verkabelung" id="rbs-elektronik-002">
+    <mxGraphModel dx="1847" dy="1285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z_steuer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=12;spacingTop=10;fontSize=13;fontStyle=1;dashed=1;fontColor=#1A1A1A;" value="Schaltschrank - Steuerzone" vertex="1">
+          <mxGeometry height="540" width="300" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_leist" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=12;spacingTop=10;fontSize=13;fontStyle=1;dashed=1;fontColor=#1A1A1A;" value="Schaltschrank - Leistungszone" vertex="1">
+          <mxGeometry height="420" width="300" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_sich" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=12;spacingTop=10;fontSize=13;fontStyle=1;dashed=1;fontColor=#1A1A1A;" value="Sicherheitskette" vertex="1">
+          <mxGeometry height="420" width="280" x="680" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_atc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=12;spacingTop=10;fontSize=13;fontStyle=1;dashed=1;fontColor=#1A1A1A;" value="Schunk-ATC-Durchfuehrung (SWO-E)" vertex="1">
+          <mxGeometry height="120" width="920" x="40" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="z_kopf" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=12;spacingTop=10;fontSize=13;fontStyle=1;dashed=1;fontColor=#1A1A1A;" value="Biegekopf (am Roboterflansch, wechselbar)" vertex="1">
+          <mxGeometry height="400" width="660" x="40" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="z_robo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=12;spacingTop=10;fontSize=13;fontStyle=1;dashed=1;fontColor=#1A1A1A;" value="Roboter / Steuerung" vertex="1">
+          <mxGeometry height="280" width="260" x="730" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="n_pc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Mini-PC Beelink Mini S12 Pro" vertex="1">
+          <mxGeometry height="70" width="240" x="60" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n_touch" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Touchscreen Elecrow RC070" vertex="1">
+          <mxGeometry height="70" width="240" x="60" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n_dcdc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="DC-DC-Wandler Mean Well SD-25B-12" vertex="1">
+          <mxGeometry height="70" width="240" x="60" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n_rs485usb" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="USB-RS485-Konverter Delock 62501 (isoliert)" vertex="1">
+          <mxGeometry height="70" width="240" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="n_psu24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="24V-Netzteil Mean Well NDR-240-24" vertex="1">
+          <mxGeometry height="70" width="240" x="380" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n_servo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Servoverstaerker Panasonic MCDLN35SE" vertex="1">
+          <mxGeometry height="70" width="240" x="380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n_ls" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="LS-Schalter 10A + 230VAC-Zuleitung" vertex="1">
+          <mxGeometry height="70" width="240" x="380" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n_licht" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Sicherheitslichtgitter Pilz PSENopt" vertex="1">
+          <mxGeometry height="70" width="240" x="700" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n_notaus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Not-Aus-Taster Pilz PIT es Set1s-5" vertex="1">
+          <mxGeometry height="70" width="240" x="700" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n_pnoz" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Sicherheitsrelais Pilz PNOZ X1" vertex="1">
+          <mxGeometry height="70" width="240" x="700" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n_atc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Schunk SWS-I/SWS-L SWK + SWA + SWO-E-Modul" vertex="1">
+          <mxGeometry height="60" width="280" x="380" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="n_stm32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="STM32 Nucleo-F401RE" vertex="1">
+          <mxGeometry height="70" width="240" x="70" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="n_max485" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="RS485-Modul (MAX485)" vertex="1">
+          <mxGeometry height="70" width="240" x="400" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="n_motor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Motor Panasonic MSMF082L1U1" vertex="1">
+          <mxGeometry height="70" width="240" x="70" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="n_getriebe" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Getriebe APEX AB115-S2-P2" vertex="1">
+          <mxGeometry height="70" width="240" x="400" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="n_sensor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Naeherungssensor Schunk IN-Serie" vertex="1">
+          <mxGeometry height="70" width="240" x="70" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="n_fr20ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="FR20-Robotersteuerung (Controller-Box)" vertex="1">
+          <mxGeometry height="70" width="240" x="740" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="n_fr20arm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;fontSize=12;fontColor=#1A1A1A;align=center;verticalAlign=middle;" value="Roboterarm Fairino FR20" vertex="1">
+          <mxGeometry height="70" width="240" x="740" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n_pc" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;horizontal=0;" target="n_touch" value="HDMI + USB (Touch)">
+          <mxGeometry relative="1" x="0.2" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;horizontal=0;" value="12V DC, Hohlstecker">
+          <mxGeometry relative="1" x="-0.7647" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="260" y="250" />
+              <mxPoint x="260" y="250" />
+            </Array>
+            <mxPoint x="260" y="330" as="sourcePoint" />
+            <mxPoint x="260" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n_pc" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;horizontal=0;" target="n_rs485usb" value="USB (intern, Host)">
+          <mxGeometry relative="1" x="0.1724" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n_ls" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n_servo" value="230VAC Leistungseinspeisung">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#D79B00;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;horizontal=0;" value="24V DC">
+          <mxGeometry relative="1" x="0.0456" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="320" y="130" />
+              <mxPoint x="320" y="356" />
+            </Array>
+            <mxPoint x="380" y="130" as="sourcePoint" />
+            <mxPoint x="300" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="n_psu24" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#D79B00;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;horizontal=0;" target="n_pnoz" value="24V DC Versorgung">
+          <mxGeometry relative="1" x="-0.0063" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="670" y="111" />
+              <mxPoint x="670" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="n_licht" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#B8860B;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;horizontal=0;" target="n_pnoz" value="OSSD-Sicherheitssignal">
+          <mxGeometry relative="1" x="-0.6471" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="n_notaus" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#B8860B;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.297;entryY=0.014;entryDx=0;entryDy=0;dashed=1;horizontal=0;entryPerimeter=0;" target="n_pnoz" value="2x Oeffner-Kontakt">
+          <mxGeometry relative="1" x="0.1904" y="-12" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="772" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="n_pnoz" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#B8860B;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;dashed=1;horizontal=0;" target="n_servo" value="Freigabekontakt (Motorleistung)">
+          <mxGeometry relative="1" x="-0.11" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="650" y="379" />
+              <mxPoint x="650" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="n_rs485usb" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.15;entryY=0;entryDx=0;entryDy=0;" target="n_atc" value="RS485 A/B/GND isoliert 3kV">
+          <mxGeometry relative="1" x="0.0143" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="n_servo" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#D79B00;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;horizontal=0;" target="n_atc" value="Motorkabel: U/V/W + Encoder">
+          <mxGeometry relative="1" x="0.3846" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="n_psu24" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#D79B00;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.7;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;horizontal=0;" target="n_atc" value="24V DC Versorgung">
+          <mxGeometry relative="1" x="0.5357" y="-8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="n_atc" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_max485" value="RS485 durchgeschleift">
+          <mxGeometry relative="1" x="-0.0096" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#D79B00;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;startArrow=block;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_motor" value="Motorkabel: U/V/W + Encoder">
+          <mxGeometry relative="1" x="0.1135" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="490" y="710" />
+              <mxPoint x="490" y="825" />
+              <mxPoint x="190" y="825" />
+            </Array>
+            <mxPoint x="490" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="n_atc" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#D79B00;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.85;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;" target="n_stm32" value="24V DC Versorgung">
+          <mxGeometry relative="1" x="0.1367" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="618" y="780" />
+              <mxPoint x="274" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="n_max485" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n_stm32" value="UART (TTL)">
+          <mxGeometry relative="1" x="-0.1111" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#82B366;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" value="mechanisch (Abtriebswelle)">
+          <mxGeometry relative="1" x="0.1111" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="310" y="969.6" as="sourcePoint" />
+            <mxPoint x="400" y="969.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;horizontal=0;" value="digitales 24V-Signal (Kopf angedockt)">
+          <mxGeometry relative="1" x="-0.0588" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="90" y="1060" />
+              <mxPoint x="90" y="890" />
+            </Array>
+            <mxPoint x="90" y="1060" as="sourcePoint" />
+            <mxPoint x="90" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="n_stm32" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=-0.001;exitY=0.713;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;horizontal=0;exitPerimeter=0;" target="n_servo" value="Pulszug/Step-Dir-Signal (durch ATC)">
+          <mxGeometry relative="1" x="-0.0146" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="15" y="870" />
+              <mxPoint x="15" y="280" />
+              <mxPoint x="350" y="280" />
+              <mxPoint x="350" y="245" />
+            </Array>
+            <mxPoint x="70" y="875.9999999999998" as="sourcePoint" />
+            <mxPoint x="380" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="n_pc" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="n_fr20ctrl" value="Ethernet TCP/IP (ungeprueft, offener Punkt)">
+          <mxGeometry relative="1" x="-0.1731" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="180" y="15" />
+              <mxPoint x="860" y="15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="n_fr20ctrl" style="html=1;fontSize=9;fontColor=#222222;endArrow=block;startArrow=none;arrowSize=6;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=16;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.3;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;horizontal=1;" target="n_fr20arm" value="Motion-Steuerung (Achsen J1-J6)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sG7h0kUfwbWBatZp07qY-1" edge="1" parent="1" source="n_dcdc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n_dcdc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
